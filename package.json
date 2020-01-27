@@ -1,0 +1,22 @@
+{
+  "name": "testingproj2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/traDev-CI/TestingProj2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/traDev-CI/TestingProj2/issues"
+  },
+  "homepage": "https://github.com/traDev-CI/TestingProj2#readme",
+  "devDependencies": {
+    "mocha": "^7.0.1"
+  }
+}
