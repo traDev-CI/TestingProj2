@@ -9,5 +9,6 @@
         node_js: "stable"
       - stage: Notification
         name: "Notify results"
-        notifications: alfredo.rivas@softtek.com
-+
+notifications:
+  email:
+    - alfredo.rivas@softtek.com
