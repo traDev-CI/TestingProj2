@@ -6,5 +6,6 @@
         node_js: "stable"
       - stage: Notification
         name: "Notify results"
+        git: config user.email "alfredo.rivas@softtek.com"
         notifications:
         email: alfredo.rivas@outlook.com
