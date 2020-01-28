@@ -6,4 +6,10 @@
         node_js: "stable"
       - stage: Notification
         name: "Notify results"
-        script: echo "HOLA"
+        notifications:
+          email:
+            if: branch = master
+            recipients:
+              - alfredo.rivas@softtek.com
+            on_success: always
+            on_failure: always
