@@ -8,3 +8,7 @@
         name: "Notify results"
         notifications:
           email:
+            recipients:
+              - alfredo.rivas@outlook.com
+            on_success: always
+            on_failure: always
