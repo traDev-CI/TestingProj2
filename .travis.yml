@@ -3,7 +3,7 @@
       - stage: install
         name: "Intall Rake"
         script: 
-          - sudo apt-update
+          - sudo apt update
           - sudo apt install rake 
       - stage: test
         name: "Test operation"
