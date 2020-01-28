@@ -9,7 +9,7 @@
         node_js: "stable"
       - stage: Notification
         name: "Notify results"
-        script: "Notify"
+        script: echo "Notify"
 
 notifications:
   email:
