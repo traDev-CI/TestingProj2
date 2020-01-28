@@ -9,6 +9,11 @@
         node_js: "stable"
       - stage: Notification
         name: "Notify results"
+        script: "Notify"
+
 notifications:
   email:
-    - alfredo.rivas@softtek.com
+    recipients:
+      - alfredo.rivas@softtek.com
+    on_success: always # default: change
+    on_failure: always # default: always
