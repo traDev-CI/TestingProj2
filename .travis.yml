@@ -9,6 +9,6 @@
         notifications:
           email:
             recipients:
-              - alfredo.rivas@softtek.com
+              - "alfredo.rivas@softtek.com"
             on_success: always
             on_failure: always
