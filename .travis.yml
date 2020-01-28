@@ -9,10 +9,5 @@
         node_js: "stable"
       - stage: Notification
         name: "Notify results"
-        notifications:
-          email:
-            if: branch = master
-            recipients:
-              - alfredo.rivas@softtek.com
-            on_success: always
-            on_failure: always
+        notifications: alfredo.rivas@softtek.com
++
