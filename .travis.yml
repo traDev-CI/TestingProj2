@@ -2,7 +2,9 @@
     include:
       - stage: install
         name: "Intall Rake"
-        script: sudo apt-install rake 
+        script: 
+          - sudo apt-update
+          - sudo apt install rake 
       - stage: test
         name: "Test operation"
         language: node_js
