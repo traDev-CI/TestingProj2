@@ -1,6 +1,14 @@
-language: node_js
-node_js:
-  - "stable"
-
-notifications:
-  - alfredo.rivas@softtek.com
+  job:
+    include:
+      - stage: test
+        name: "Test operation"
+        language: node_js
+        node_js: "stable"
+      - stage: Notification
+        name: "Notify results"
+        notification:
+          email:
+            recipients:
+              - alfredo.rivas@outlook.com
+            on_success: always
+            on_failure: always
