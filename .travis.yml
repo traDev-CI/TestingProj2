@@ -7,5 +7,4 @@
       - stage: Notification
         name: "Notify results"
         notifications:
-          email:
-            recipients: alfredo.rivas@outlook.com
+          email: alfredo.rivas@outlook.com
