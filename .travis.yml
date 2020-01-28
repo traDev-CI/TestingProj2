@@ -6,7 +6,7 @@
         node_js: "stable"
       - stage: Notification
         name: "Notify results"
-        notification:
+        notifications:
           email:
             recipients:
               - alfredo.rivas@outlook.com
