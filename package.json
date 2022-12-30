@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/traDev-CI/TestingProj2#readme",
   "devDependencies": {
-    "mocha": "^7.0.1"
+    "mocha": "^10.2.0"
   }
 }
